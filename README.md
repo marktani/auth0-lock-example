@@ -7,6 +7,10 @@ You can try out the Auth0 + Graphcool authentication workflow using the [hosted 
 
 ![](http://i.imgur.com/TO02SWf.gif)
 
+## Project setup
+
+In order to enable Auth0 authentication support please go to your project's `User` model and click on "Configure Auth Provider". Please enter your Auth0 credentials in the popup and click "Enable".
+
 ## How it works
 
 The authentication process consists of two separate steps:
