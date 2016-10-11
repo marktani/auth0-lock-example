@@ -36,6 +36,7 @@ export default class App extends Component {
         }
       }`)
     } catch (e) {
+      // TODO check error code 3023
       console.log(e);
     }
 
