@@ -1,5 +1,6 @@
 # auth0-lock-example
-Simple example app demonstrating how to use Auth0 Lock with a Graphcool backend
+
+Auth0 Lock is the quickest way to integrate Auth0 in your application. This example demonstrates how to use Auth0 Lock to authenticate users for your Graphcool backend.
 
 ## Online Demo
 
