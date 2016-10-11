@@ -1,5 +1,5 @@
 # auth0-lock-example
-Simple example app demonstrating how to use [Auth0 Lock](https://auth0.com/docs/libraries/lock) with a [Graphcool backend](https://graph.cool/)
+[Auth0 Lock](https://auth0.com/docs/libraries/lock) is the quickest way to integrate Auth0 in your application. This example demonstrates how to use Auth0 Lock to authenticate users for your [Graphcool backend](https://graph.cool/).
 
 ## Online Demo
 
