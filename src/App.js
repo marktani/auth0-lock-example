@@ -36,8 +36,10 @@ export default class App extends Component {
         }
       }`)
     } catch (e) {
-      // TODO check error code 3023
-      console.log(e);
+      // 3023 means user was already created, so let's ignore this error
+      if (!e.rawError || e.rawError[0].code !== 3023) {
+        throw e
+      }
     }
 
     const signinResult = await api.mutate(`{
