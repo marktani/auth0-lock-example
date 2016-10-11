@@ -1,5 +1,5 @@
 # auth0-lock-example
-Simple example app demonstrating how to use Auth0 Lock with a Graphcool backend
+Simple example app demonstrating how to use [Auth0 Lock](https://auth0.com/docs/libraries/lock) with a [Graphcool backend](https://graph.cool/)
 
 ## Online Demo
 
@@ -13,7 +13,9 @@ The authentication process consists of two separate steps:
 
 ### 1. Auth0 authentication
 
-The app authenticates via Auth0 Lock which returns a Auth0 `tokenId`. This step is indepenent from Graphcool.
+The app authenticates via Auth0 Lock which returns a Auth0 `tokenId`. Auth0 **Lock** is just a UI component used for the login layover.
+
+*Note: This step is indepenent from Graphcool.*
 
 ### 2. Graphcool `User` session
 
@@ -58,5 +60,19 @@ Note: A good practise is to call `createUser` first, even if the `User` already 
 
 ## Code
 
-- create react app
-- 
+This example app is built in React using [create-react-app](https://github.com/facebookincubator/create-react-app) and uses [Lokka](https://github.com/kadirahq/lokka) as a GraphQL client. It also contains the GraphiQL component to simulate the GraphQL access depending on the authentication status.
+
+The concepts used in this example should be easily applicable to other frameworks and technologies.
+
+### Development
+
+```
+npm install
+npm start
+```
+
+## Help & Community [![Slack Status](https://slack.graph.cool/badge.svg)](https://slack.graph.cool)
+
+Join our [Slack community](http://slack.graph.cool/) if you run into issues or have questions. We love talking to you!
+
+![](http://i.imgur.com/5RHR6Ku.png)
