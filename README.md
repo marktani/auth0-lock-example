@@ -21,7 +21,7 @@ The app authenticates via Auth0 Lock which returns a Auth0 `tokenId`. Auth0 **Lo
 
 *Note: This step is indepenent from Graphcool.*
 
-To run this example in development mode, following configurations are necessary in Auth0 Client Settings.
+To run this example in development mode, the following configurations are necessary in Auth0 client settings:
 
 * Client Type: `Regular Web Application`
 * Token Endpoint Authentication Method: `None`
