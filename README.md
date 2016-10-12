@@ -23,9 +23,9 @@ The app authenticates via Auth0 Lock which returns a Auth0 `tokenId`. Auth0 **Lo
 
 To run this example in development mode, following configurations are necessary in Auth0 Client Settings.
 
-Client Type: Regular Web Application
-Token Endpoint Authentication Method: None
-Allowed Callback URLs: http://localhost:3000/
+* Client Type: `Regular Web Application`
+* Token Endpoint Authentication Method: `None`
+* Allowed Callback URLs: `http://localhost:3000/`
 
 ### 2. Graphcool `User` session
 
